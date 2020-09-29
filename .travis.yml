@@ -1,0 +1,16 @@
+os: linux
+dist: bionic
+
+services:
+  - docker
+
+language: java
+jdk:
+  - openjdk11
+
+install:
+  - ./gradlew assemble
+
+script:
+  - ./gradlew bootJar
+  - docker-compose build
