@@ -1,4 +1,6 @@
 # Sample Spring Datadog
+[![Build Status](https://travis-ci.com/Leaf-Agriculture/sample-spring-datadog.svg?branch=master)](https://travis-ci.com/Leaf-Agriculture/sample-spring-datadog)
+
 Sample Spring Boot application with Datadog enabled
 
 ## About
